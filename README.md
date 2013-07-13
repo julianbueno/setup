@@ -11,5 +11,6 @@ follows:
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/julianbueno/setup.git
+chmod 700 setup.sh
 ./setup/setup.sh
 ```
