@@ -10,6 +10,13 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 # Install Heroku
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
+#Install Node
+sudo apt-get update
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
 nvm install v0.10.12
